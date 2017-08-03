@@ -1,3 +1,44 @@
-.video {
-  position: relative;
+#namewell {
+	background-color: #CF4647;
+	border-color: #CF4647;
+	margin-bottom: 0px;
+	height: 400px;
+}
+
+#introductionwell {
+	background-color: white;
+	border-color: white;
+	margin-bottom: 0px;
+}
+
+#introduction {
+	text-align: center; 
+	font-family: roboto;
+}
+
+#paragraph {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#projectswell {
+	background-color: #334055; 
+	border-color:#334055; 
+	margin-bottom: 0px;
+}
+
+#projects {
+	text-align:center; 
+	color:white; 
+	font-family: roboto
+}
+
+#contactwell {
+	background-color:white;
+	border-color:white;
+}
+
+#contact {
+	text-align:center;
+	font-family: roboto;
 }
