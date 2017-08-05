@@ -1,14 +1,12 @@
 #namewell {
 	background-color: #CF4647;
 	border-color: #CF4647;
-	margin-bottom: 0px;
 	height: 400px;
 }
 
 #introductionwell {
 	background-color: white;
 	border-color: white;
-	margin-bottom: 0px;
 }
 
 #introduction {
@@ -24,7 +22,8 @@
 #projectswell {
 	background-color: #334055; 
 	border-color:#334055; 
-	margin-bottom: 0px;
+	height: 400px;
+
 }
 
 #projects {
@@ -36,7 +35,7 @@
 #contactwell {
 	background-color:white;
 	border-color:white;
-} 
+}
 
 #contact {
 	text-align:center;
