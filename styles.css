@@ -1,6 +1,4 @@
 #namewell {
-    background-color: #CF4647;
-    border-color: #CF4647;
     height: 600px;
 }
 
@@ -48,4 +46,8 @@
 #row1 {
     margin-top: 100px;
     margin-bottom: 200px;
+}
+
+#words {
+	z-index: 229222;
 }
