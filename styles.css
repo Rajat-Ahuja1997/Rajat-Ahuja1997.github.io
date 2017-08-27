@@ -29,9 +29,20 @@
     font-family: roboto
 }
 
-#contactwell {
+#skillswell {
     background-color: white;
-    border-color: white;
+    border-color: #white;
+    height: 400px;
+}
+#contactwell {
+    background-color: #334055;
+    border-color: #334055;
+    color:white;
+}
+
+#skill {
+    text-align: center;
+    font-family: roboto;
 }
 
 #contact {
@@ -44,10 +55,13 @@
 }
 
 #row1 {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 200px;
 }
 
+#row2 {
+    margin-top: 50px;
+}
 #words {
 	z-index: 229222;
 }
