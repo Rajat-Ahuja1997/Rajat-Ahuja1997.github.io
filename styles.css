@@ -1,3 +1,67 @@
-.video {
-  position: relative;
+#namewell {
+    height: 600px;
+}
+
+#introductionwell {
+    background-color: white;
+    border-color: white;
+}
+
+#introduction {
+    text-align: center;
+    font-family: roboto;
+}
+
+#paragraph {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#projectswell {
+    background-color: #334055;
+    border-color: #334055;
+    height: 600px;
+}
+
+#projects {
+    text-align: center;
+    color: white;
+    font-family: roboto
+}
+
+#skillswell {
+    background-color: white;
+    border-color: #white;
+    height: 400px;
+}
+#contactwell {
+    background-color: #334055;
+    border-color: #334055;
+    color:white;
+}
+
+#skill {
+    text-align: center;
+    font-family: roboto;
+}
+
+#contact {
+    text-align: center;
+    font-family: roboto;
+}
+
+.links {
+    margin: 10px;
+}
+
+#row1 {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#row2 {
+    margin-top: 50px;
+}
+#words {
+	z-index: 229222;
 }
