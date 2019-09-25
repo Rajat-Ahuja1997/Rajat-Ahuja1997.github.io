@@ -1,152 +1,291 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="styles.css">
-    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-    <title> Rajat Ahuja</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Rajat Ahuja</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
 </head>
 
-<body style="background-color:white;">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <ul class="nav navbar-nav navbar-LEFT">
-                    <li><a href="http://www.linkedin.com/in/rajat-ahuja"><i class="fab fa-linkedin" aria-hidden="true" style="font-size:2em;"></i></a></li>
-                    <li><a href="mailto:rajat_ahuja@utexas.edu"><i class="fas fa-envelope" aria-hidden="true" style="font-size:2em;"></i></a></li>
-                    <li><a href="http://www.github.com/Rajat-Ahuja1997"><i class="fab fa-github" aria-hidden="true" style="font-size:2em;"></i></a></li>
-                    <li><a href="https://medium.com/@rajat_ahuja"><i class="fab fa-medium" aria-hidden="true" style="font-size:2em;"></i></a></li>
-                </ul>
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#namewell">HOME</a></li>
-                <li><a href="#introductionwell">INTRODUCTION</a></li>
-                <li><a href="#projectswell">PROJECTS</a></li>
-                <li><a href="#skillswell">SKILLS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container-fluid" id="namewell" style="background-image: url(ut.jpg);">
-        <br>
-        <br>
-        <div class="profile">
-            <img class="circular" src="rajat_ahuja_headshot.png" alt="Profile image">
-            <h1 style="text-align:center; font-family: roboto;">RAJAT AHUJA</h1>
-            <h3 style="text-align:center; font-family: roboto;">Software Engineer</h3>
-        </div>
-        <br>
-        <br>
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Rajat Ahuja</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+      </ul>
     </div>
-    <div class="col-sm-12" id="introductionwell">
-        <h1 id="introduction">INTRODUCTION</h1>
-        <h4 id="paragraph">My name is Rajat Ahuja. I'm currently a 4th year undergraduate studying Computer Engineering and Plan II Honors at The University of Texas at Austin. I was most recently a software engineering intern at Base Operations, a startup in the Techstars Austin Impact Program (Summer 2018) and an undergraduate research assistant at Howison Lab at The University of Texas.</h4>
-        <br>
-        <br>
-        <h6 id="paragraph">Within the realm of tech, my interests include the Internet of Things, Big Data, Software Engineering, Cybersecurity, and Machien Learnings. Outside of tech, my interests include education policy, post-colonial South Asian history, and microeconomics [specifically decision theory].</h6>
-        <h6 id="paragraph">Relevant coursework that I've taken at UT Austin includes Algorithms, Digital Logic Design, Software Design I (C/C++), Software Design II (Java), and Introduction to Embedded Systems (Arm Assembly/C>.</h6>
-        <div style="text-align: center;">
-            <br>
-            <a href="Rajat_Resume.pdf" download>
-                <button class="btn btn-success">Download Resumé</button>
-            </a>
-            <br>
-            <br>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Rajat
+          <span class="text-primary">Ahuja</span>
+        </h1>
+        <div class="subheading mb-5">4700 W. Guadalupe Street · Austin, TX 78751 · (225) 954-1125 ·
+          <a href="mailto:name@email.com">rajat_ahuja@utexas.edu</a>
         </div>
-    </div id="hi">
-    <div id="projectswell" class="col-sm-12">
-        <h1 id="projects">PROJECTS</h1>
-        <div class="row" id="row1">
-            <div class="card col-sm-2 col-sm-offset-1">
-                <div class="card-block">
-                    <h4 class="card-title" style="color:white;">FriendMAP<br> Just Energy Tooltips</h4>
-                    <p class="card-text" style="color:white;">Currently developing a cross-platform 'Find My Friends clone'.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Implements an Flask API (Python) with a React Native Frontend</li>
-                    <li class="list-group-item">Implements Google Firebase's Realtime Database to get realtime updates on a friend's location</li>
-                    <li class="list-group-item"><a href="https://github.com/Rajat-Ahuja1997/FriendMAP" class="card-link">Github link</a></li>
-                </ul>
-            </div>
-            <div class="card col-sm-2 col-sm-offset-2">
-                <div class="card-block">
-                    <h4 class="card-title" style="color:white;">FriendMap</h4>
-                    <p class="card-text" style="color:white;">Currently developing a cross-platform clone of Find My Friends.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Utilizes a RESTful Flask API with a React Native frontend </li>
-                    <li class="list-group-item">Has the ability to get realtime location updates from your friends via Google Firebase's Realtime Database </li>
-                    <li class="list-group-item"><a href="https://github.com/Rajat-Ahuja1997/HashPass" class="card-link">Github link</a></li>
-                </ul>
-            </div>
-            <div class="card col-sm-2 col-sm-offset-2">
-                <div class="card-block">
-                    <h4 class="card-title" style="color:white;">HashPass</h4>
-                    <p class="card-text" style="color:white;">Created a web app to cipher passwords for various popular websites using the Vigenère cipher.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Websites have their own cipher keys so users only have to remember their original password </li>
-                    <li class="list-group-item">Responsive application [Bootstrap] </li>
-                    <li class="list-group-item">Written with Angular, Java, MongoDB</li>
-                    <li class="list-group-item"><a href="http://hashpass.herokuapp.com/index.html">Hashpass | Not up to date</a></li>
-                    <li class="list-group-item"><a href="https://github.com/Rajat-Ahuja1997/HashPass" class="card-link">Github link</a></li>
-                </ul>
-            </div>
-            <div class="card col-sm-2 col-sm-offset-1">
-                <!--                 <img class="card-img-top" src="jetimage.png" alt="Card image cap">
- -->
-                <div class="card-block">
-                    <h4 class="card-title" style="color:white;">JET<br> Just Energy Tooltips</h4>
-                    <p class="card-text" style="color:white;">Created an AngularJS application that can dynamically display tooltips for inputs on any Angular application.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Implements an ASP.NET RESTful API and an AngularJS Front-end</li>
-                    <li class="list-group-item">Summer 2017 intern project (team of three interns)</li>
-                    <li class="list-group-item">API can be implemented with any website; requires new front-end for non-Angular applications</li>
-                    <li class="list-group-item">Data is managed via CassandraDB</li>
-                    <li class="list-group-item"><a href="https://github.com/Rajat-Ahuja1997/JET" class="card-link">Github link</a></li>
-                </ul>
-            </div>
+        <p class="lead mb-5">I'm currently a 5th year computer engineering student at The University of Texas at Austin. I'm a skilled developer that has strong experience leveraging agile frameworks to create full-stack web applications in multiple languages. I enjoy utilizing test-driven development strategies to ship out production-ready code.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/rajat-ahuja">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.github.com/rajat-ahuja1997">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/Rajat__Ahuja">
+            <i class="fab fa-twitter"></i>
+          </a>
         </div>
-    </div>
-    <div class="col-sm-12" id="skillswell">
-        <h1 id="skill">SKILLS</h1>
-        <div class="row" id="row2">
-            <div class="col-sm-2 col-sm-offset-1">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-info"><b>Software Skills</b></li>
-                    <li class="list-group-item"><b>Proficient</b> - Java, Python, JavaScript, ASP.Net, C/C++, AngularJS, HTML/CSS</li>
-                    <li class="list-group-item"><b>Working knowledge</b> - Node.JS, CQL (Cassandra), Angular, Arm Assembly</li>
-                    <li class="list-group-item"><b>Learning</b> - MongoDB </li>
-                </ul>
-            </div>
-            <div class="col-sm-2 col-sm-offset-2">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-info"><b>Hardware Skills</b></li>
-                    <li class="list-group-item"><b>Proficient</b> - Tiva C Series Microcontroller</li>
-                    <li class="list-group-item"><b>Working knowledge</b> - Arduino, Raspberry Pi, Diligent Basys3 Board</li>
-                    <li class="list-group-item"><b>Theoretical</b> - Knowledge of basic circuit theory and digital logic design</li>
-                </ul>
-            </div>
-            <div class="card col-sm-2 col-sm-offset-1">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-info"><b>Communication Skills</b></li>
-                    <li class="list-group-item">Extensive experience speaking in front of an audience</li>
-                    <li class="list-group-item">Excellent writing abilities</li>
-                    <li class="list-group-item">Working knowledge of Spanish and Hindi</li>
-                </ul>
-            </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Software Engineering Intern</h3>
+            <div class="subheading mb-3">Southwest Airlines</div>
+            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2019 - August 2019</span>
+          </div>
         </div>
-    </div>
-    <div class="col-sm-12" id="contactwell">
-        <h1 id="contact">CONTACT</h1>
-        <div style="text-align: center;">
-            <h4 id="paragraph">Feel free to email me at Rajat_Ahuja@utexas.edu if you're interested in freelance web-development services [full-stack], looking for a software engineering intern, or just interested in pair-programming on a project.</h4>
-            <br>
-            <br>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Software Engineering and Data Intern</h3>
+            <div class="subheading mb-3">Base Operations</div>
+            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2018 - August 2018</span>
+          </div>
         </div>
-    </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Systems Developer Intern</h3>
+            <div class="subheading mb-3">Just Energy</div>
+            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2010 - December 2011</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0">Machine Learning + Financial Correlations</h3>
+              <p>Currently developing a machine learning application using NodeJS/Express built on a TensorFlow engine to discover correlations in public financial data to ultimately predict whether or not an investment is prudent.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2019 - Present</span>
+            </div>
+          </div>
+  
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">FriendMap</h3>
+            <p>Developed a cross-platform ‘Find Friends’ clone with React Native, Flask (Python), and Google Firebase.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Hashpass</h3>
+            <p>Created a NodeJS/pure JavaScript web app to cipher and deliver secure passwords to users using the Vigenére cipher.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2018</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">The University of Texas at Austin</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
+            <div>Computer Engineering - Software Engineering Track</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2015 - December 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">The University of Texas at Austin</h3>
+            <div class="subheading mb-3">Bachelor of Arts</div>
+            <div>Plan II Honors</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2015 - December 2019</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-java" title="Java"></i>
+          </li>
+          <li class="list-inline-item">
+              <i class="fab fa-python" title="Python"></i>
+          </li>  
+          <li class="list-inline-item">
+              <i class="fab fa-js-square" title="JavaScript"></i>
+          </li> 
+          <li class="list-inline-item">
+              <i class="fab fa-aws" title="AWS"></i>
+          </li>   
+          <li class="list-inline-item">
+            <i class="fas fa-database" title="SQL"></i>
+          </li>
+          <li class="list-inline-item">
+              <i class="fab fa-git" title="Git"></i>
+          </li>  
+          <li class="list-inline-item">
+            <i class="fab fa-html5" title="HTML5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt" title="CSS3"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-react" title="ReactJS"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js" title="NodeJS"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-sass" title="Sass"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-gulp" title="Gulp"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development &amp; Scrum</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Test-Driven Development &amp; Debugging</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Responsive Design</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Continuous Integration &amp; Deployment</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>Apart from being a software engineer, I enjoy traveling, cooking, writing, reading fiction and non-fiction, and watching movies. I also spend a significant amount of my free time learning about everything I can.</p>
+        <p>My technical interests include: web app development, blockchain, Internet of Things, machine learning, and penetration testing.</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
 </body>
 
 </html>
