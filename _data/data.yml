@@ -1,0 +1,161 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Rajat Ahuja
+    tagline: Software Engineer
+    avatar: pic.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: rahuja445@gmail.com
+    phone: 225 954 1125
+    timezone: America/New York Timezone
+    citizenship: USA
+    linkedin: rajat-ahuja
+    github: Rajat-Ahuja1997
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+        - idiom: Hindi
+          level: Conversational
+
+        - idiom: Spanish
+          level: Conversational
+
+    interests:
+      title: Interests
+      info:
+        - item: Watch-collecting
+          link:
+
+        - item: Traveling
+          link:
+
+        - item: Cooking
+          link:
+
+        - item: Writing
+          link:
+        
+        - item: Learning New Technologies
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+education:
+    title: Education
+    info:
+      - degree: B.S. in Computer Engineering
+        university: The University of Texas at Austin
+        time: 2015 - 2019
+      - degree: B.A. in Plan II Honors
+        university: The University of Texas at Austin
+        time: 2015 - 2019
+experiences:
+    title: Experiences
+    info:
+      - role: Software Engineer
+        time: Dec. 2021 - Present
+        company: <a href="https://getbezel.com" target="_blank" rel="nofollow">Bezel</a>, New York [seed-stage startup] 
+        details: |
+            - Led backend efforts among a team of four engineers in building an authenticated luxury watch marketplace.
+            - Architected and developed real-time offer and counter-offer functionality for marketplace buyers and sellers, enabling direct negotiations, seamless transactions, and a reduced need for Bezel's intervention in driving sales to completion.
+            - Streamlined Bezel's inventory ingestion process by deploying a web crawler using Ruby on Rails which periodically discovered and ingested new inventory on 10+ seller's websites, reducing the weekly workload for internal teams by dozens of hours.
+            - Integrated backend (Java/Jersey) with Google Cloud Pub/Sub to facilitate asynchronous service-to-service communication and guarantee message delivery.
+            - Optimized the performance and accuracy of ElasticSearch by improving document modeling, tuning queries, and judiciously applying filters, resulting in a 30% improvement in speed.
+            - Automated a process to sync 1000s of watches on Bezel's platform with data on seller's websites to keep Bezel inventory up-to-date by building a web scraper using Ruby on Rails.
+            - Elevated the purchasing experience by building a discount codes feature and integrating discounts with Refersion to enable affiliate marketing which added value to customers while expanding marketing reach.
+            - Built dynamic web pages for the inventory listing, landing, offers, and search experiences using Next.js (React framework.)
+            - Improved the process of product feed management by writing a job to automatically aggregate all watch inventory data via SQL query and SFTP transferring it to a 3rd-party daily.
+            - Modified payments experience using Stripe API to allow for holds on wire purchases to lower the incidence of unpaid orders.
+      - role: Software Engineer
+        time: Mar. 2020 - Dec. 2021
+        company: Amazon Web Services [AWS], Remote
+        details: |
+            - Spearheaded full-stack development efforts to introduce the QuickSight Just-in-Time Provisioning feature, streamlining user onboarding and enhancing security for tens of thousands of enterprise customers utilizing IDP-Initiated Federation.
+            - Implemented backend (Java/Spring) for QuickSight folders which introduced a hierarchical structure to asset management to elevate AWS's leading business intelligence tool.
+            - Maintained operational efforts among a team of 10 developers by writing dozens of security test suites, creating alarms for all team APIs, and compiling runbooks to ensure the continued uptime of first-mile user onboarding.
+            - Prototyped and deployed the QuickSight Favorited Folders feature, allowing for immediate access to users' most relevant data with adoption rates of 100+ users/week.
+            - Designed and developed frontend ReactJS components for QuickSight Folders and JIT Provisioning projects.
+      - role: Software Engineering Intern
+        time: May 2019 - August 2019
+        company: Dallas, Texas
+        details: |
+            - Engineered ReactJS/Java Spring application with live Pivotal Gemfire data integration for fleet-wide management of 4000+ flights a day.
+            - Launched development on a business-important ReactJS/Java (Spring) app to optimize internal non-revenue travel for 65000+ employees.
+      - role: Backend Developer
+        time: May 2018 - August 2018
+        company: Austin, Texas
+        details: |
+            - Sole backend developer and data scientist for Base Operations in the Techstars Austin Impact program.
+            - Developed and maintained a Flask RESTful API.
+            - Deployed and scaled multiple web applications with AWS Elastic Beanstalk.
+            - Gained extensive experience with AWS RDS, EC2, S3, and Cognito.
+            - Integrated 3rd-party communication via Twilio and SendGrid.
+            - Implemented Google Firebase’s Cloud Messaging, Realtime Database, and User Authentication.
+            - Leveraged Segment to track various end-user analytics.
+
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
