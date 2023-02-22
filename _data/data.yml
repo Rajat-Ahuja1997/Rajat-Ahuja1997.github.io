@@ -46,18 +46,13 @@ sidebar:
         - item: Writing
           link:
         
-        - item: Learning New Technologies
+        - item: Learning new technologies
           link:
 
 career-profile:
-    title: Career Profile
+    title: Overview
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Experienced software engineer based in New York City with years of experience designing, developing, testing, and maintaining software across the full-stack. Passionate about building robust systems, data engineering, and learning new technologies. Previous experiences with both seed-stage startups and hyper-scale tech companies.
 education:
     title: Education
     info:
@@ -139,23 +134,37 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
+    backend_title: Backend
+    backend:
+      - name: Java (Spring | Jersey)
+      - name: Python (Flask)
       - name: Ruby on Rails
-        level: 85%
+      - name: JavaScript (Node.js)
+      - name: C++
 
-      - name: Sketch & Photoshop
-        level: 60%
+    frontend_title: Frontend
+    frontend: 
+      - name: ReactJS (Next.js)
+      - name: Angular
+      - name: TypeScript
+      - name: JavaScript
+      - name: HTML/CSS
+
+    cloud_database_title: Cloud/Databases
+    cloud_db:
+      - name: AWS
+      - name: Google Cloud Platform
+      - name: MySQL
+      - name: Amazon DynamoDB
+      - name: Google Firebase RealtimeDB
+      - name: Cassandra
+
+    tools_title: Tools
+    tools:
+      - name: Git
+      - name: CI/CD
+      - name: Kubernetes
+      - name: Docker
+      - name: Postman
+      - name: ELK Stack
+    

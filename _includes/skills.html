@@ -2,30 +2,73 @@
 {% if skills %}
 <section class="skills-section section">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ skills.title }}
-  </h2>
-
-  <div class="skillset">
-
-    {% for skill in skills.toolset %}
-    <div class="item">
-
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
+  <div class="row">
+    <div class="col">
+      <h2 class="section-title">
+        {{ skills.backend_title }}
+      </h2>
+  
+      <div class="skillset">
+  
+        {% for skill in skills.backend %}
+        <div class="item">
+          <h3 class="level-title">{{ skill.name }}</h3>
         </div>
-      </div><!--//level-bar-->
+        {% endfor %}
+  
+      </div>
+    </div>
 
-    </div><!--//item-->
-    {% endfor %}
-
+    <div class="col">
+      <h2 class="section-title">
+        {{ skills.frontend_title }}
+      </h2>
+  
+      <div class="skillset">
+  
+        {% for skill in skills.frontend %}
+        <div class="item">
+          <h3 class="level-title">{{ skill.name }}</h3>
+        </div>
+        {% endfor %}
+  
+      </div>
+    </div>
   </div>
 
-</section><!--//skills-section-->
+  <div class="row">
+    <div class="col">
+      <h2 class="section-title">
+        {{ skills.cloud_database_title }}
+      </h2>
+  
+      <div class="skillset">
+  
+        {% for skill in skills.cloud_db %}
+        <div class="item">
+          <h3 class="level-title">{{ skill.name }}</h3>
+        </div>
+        {% endfor %}
+  
+      </div>
+    </div>
+
+    <div class="col">
+      <h2 class="section-title">
+        {{ skills.tools_title }}
+      </h2>
+  
+      <div class="skillset">
+  
+        {% for skill in skills.tools %}
+        <div class="item">
+          <h3 class="level-title">{{ skill.name }}</h3>
+        </div>
+        {% endfor %}
+  
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
 {% endif %}

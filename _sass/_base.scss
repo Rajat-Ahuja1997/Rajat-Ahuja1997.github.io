@@ -247,6 +247,18 @@ p {
   }
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  flex: 0 0 30%;
+  margin-bottom: 20px;
+}
+
 .skillset {
   .item {
     margin-bottom: 15px;
